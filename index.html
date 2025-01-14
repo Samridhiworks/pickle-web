@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PICKLE WEB</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/pickle logo.png">
+</head>
+<body onload="openpopup()">
+    <header>
+        <nav class="navbar">
+            <div class="logo-content">
+            <div class="logo">
+                <img src="images/pickle logo.png" alt="logo">
+            </div>
+            <div class="list-contents">
+                <ul>
+                    <li><a href="" class="active">HOME</a></li>
+                    <li><a href="#">PRODUCTS</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <i class="fa-solid fa-bag-shopping"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- mobile header starts here -->
+     <div class="mb-header">
+        <div class="mb-logo">
+            <img src="images/pickle logo.png">
+        </div>
+        <div class="lists">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+     </div>
+     <div class="mb-sidebar">
+        <button class="mb-close">X</button>
+        <ul>
+            <li>Home</li>
+            <li>Products</li>
+            <li>Menu</li>
+            <li>Services</li>
+            <li>About Us</li>
+            <li>Contact Us</li>
+        </ul>
+    </div>
+    <!-- banner starts here -->
+     <section class="sec-2">
+        <div class="banner">
+            <div class="right-box">
+                <h2>Savor The Exceptional</h2>
+                <p>Indulge in a Symphony of tastes crafted with love and expertise.</p>
+                <div class="buttons">
+                    <button class="btn-1">Shop Now</button>
+                    <button class="btn-2">Learn More</button>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- section 3 starts here -->
+    
+      <section class="sec-3">
+        <h2>New and Favorites</h2>
+        <div class="all-boxes">
+            <div class="backward">
+                <img src="images/arrow.png" class="back-btn" id="back-btn" onclick="slideLeft()">
+            </div>
+            <div class="cards" id="gallery" >
+                <div class="box">
+                    <div class="image">
+                        <img src="images/ginger.jpg" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/lemon2.jpeg" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/green.jpeg" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/ginger.jpg" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/laalmirch.jfif" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="box">
+                    <div class="image">
+                        <img src="images/laalmirch.jfif" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="images/laalmirch.jfif" alt="pickle">
+                    </div>
+                    <div class="para">
+                        <p style="padding-top: 12px;">Homemade ginger garlic pickle</p>
+                        <p>550rs</p>
+                        <div class="box-btn">
+                        <button>Add To Cart</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="forward">
+                <img src="images/arrow.png"  class="forward-btn" onclick="slideright()" id="forward-btn">
+            </div>
+        </div>
+      </section>
+
+<!-- section 4 starts here -->
+ <div class="heading-4">
+    <h2>Savor The Flavor: Homemade Pickles for Every Palate!</h2>
+ </div>
+ 
+
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="images/pickle-banner-new.png">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/banners.jpg">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/banner3.avif">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/banner.jpg">
+        </div>
+        <div class="swiper-slide">
+            <img src="images/images (4).jfif">
+        </div>
+      </div>
+     
+    </div>
+  
+  
+    <!-- section 5 starts here -->
+     <section class="sec-5">
+        <h2>Tangy,Tasty,Totally
+            <br>
+            Tempting:Dive Into Our Pickle Paradise!
+        </h2>
+        <div class="about-us-sec">
+            <div class="about-left">
+                <img src="images/package2.png">
+            </div>
+            <div class="about-right">
+                <div class="about-box">
+                    <h3>About Us</h3>
+                    <p>Rooted in heritage, our pickles are inspired by family recipes passed down through generations. What started as a small kitchen experiment has grown into a trusted name loved by pickle enthusiasts far and wide. From tangy classics to bold, adventurous flavors, we craft each jar with care, ensuring a burst of freshness in every bite.</p>
+                    <p>We aim to bring a little zing to your table with pickles that celebrate flavor, culture, and quality. Whether you're savoring them with a meal, as a snack, or gifting them to loved ones, our pickles are made to delight every palate.</p>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- video section starts here -->
+      <div class="pickle-video" style="padding-bottom:100px; background: #fff;" >
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/49QhFQaXgY0?si=_O1oQBa2xfXbMRQ2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+
+     <!-- section 6 starts here -->
+      <div class="heading-6">
+     <h2>Collections</h2>
+    </div>
+      <section class="sec-6">
+        <div class="all-cards-6">
+            <div class="box-6">
+                <img src="images/pickle-new.jpg">
+                <p>Homemade Mixed Pickle
+                    <i class="fa-solid fa-arrow-right"></i>
+                </p>
+            </div>
+            <div class="box-6">
+                <img src="images/green.jpeg">
+                <p>Homemade Green Chilli Pickle
+                    <i class="fa-solid fa-arrow-right"></i>
+                </p>
+            </div>
+            <div class="box-6">
+                <img src="images/about.jpeg">
+                <p>Homemade All Type Of Pickle <i class="fa-solid fa-arrow-right"></i></p>
+            </div>
+        </div>
+      </section>
+
+      <!-- footer starts here -->
+       <footer>
+        <div class="all-footer-contents">
+            <div class="footer-box-1">
+                <img src="images/pickle logo.png">
+                <h3>Guruji Achar</h3>
+                <p>We are passionate food artisans bringing 
+                    you the finest culinary delights.
+                </p>
+            </div>
+            <div class="footer-box-2">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Products</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-box-2">
+                <h3>Sample Packs</h3>
+                <ul>
+                    <li>Mango Pickle</li>
+                    <li>Mixed Pickle</li>
+                    <li>Spicy Pickle</li>
+                    <li>Sweet Pickle</li>
+                </ul>
+            </div>
+            <div class="footer-box-2">
+                <h3>Policies</h3>
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Terms Of Service</li>
+                    <li>Refund Policy</li>
+                </ul>
+            </div>
+        </div>
+       </footer>
+
+       <!-- footer 2 starts here -->
+        <hr>
+        <div class="footer2">
+            <p>@ Guruji Achaar. A Brand by Punjab Pickles and Chutneys Pvt.Ltd.</p>
+        </div>
+
+       <!-- popup starts here -->
+       <div class="backdrop" id="popup">
+      
+        <div class="popup-bg">
+            <div class="close">
+                <button id="'close" onclick="closepopup()">X</button>
+            </div>
+            <div class="popup-content">
+                
+               <div class="popup-text">
+                <p>Sign Up to Save</p>
+                <h2>20% OFF <br>
+                SITEWIDE
+                </h2>
+                <form>
+                    <input type="email" name="email" placeholder="Enter your email address">
+                    <div class="popup-button">
+                        <button>SIGN UP</button>
+                    </div>
+                        <p class="sub-text">No,Thanks</p>
+                    
+                </form>
+               </div>
+            </div>
+        </div>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
